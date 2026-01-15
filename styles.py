@@ -107,4 +107,12 @@ def load_css():
         /* HEADERS */
         h1, h2, h3, h4 { color: #b0b3b8 !important; font-size: 1.2rem; text-align: center; }
         </style>
+        div[data-baseweb="popover"] {
+            z-index: 2000 !important; 
+        }
+        div[data-baseweb="select"] li {
+            background-color: #2b2b2b !important;
+            color: white !important;
+        }
+        </style>
     """, unsafe_allow_html=True)
